@@ -46,3 +46,17 @@ Ein binärer Baum ist eine spezielle Art von Baumstruktur, bei der jeder Knoten 
 
 ## Aufgabe 2
 ![image](https://github.com/nikhilango/M114/assets/112620635/323fb666-1d3b-4bae-87f3-ed260d86ed9c)
+
+## Aufgabe 3
+Das Bild würde dann nur aus einer Farbe bestehen, der RLC-Code wird einfach die gesamte Länge des Bildes in einem direkt darstellen. Für ein 20x20 Bild wären das 400 Pixel, welche die gleiche Farbe haben. Ein entsprechender Code könnte dann so aussehen: 1100100000 also 400 in binär.
+
+## Aufgabe 4
+⬜⬛⬛⬛⬛⬜⬜⬜
+⬜⬛⬛⬛⬛⬜⬜⬜
+⬜⬛⬛⬛⬛⬜⬜⬜
+⬜⬛⬛⬛⬛⬜⬜⬜
+⬜⬛⬛⬛⬛⬜⬜⬜
+⬜⬛⬛⬛⬛⬜⬜⬜
+⬛⬛⬛⬛⬜⬜⬛⬜
+⬛⬛⬛⬛⬜⬜⬛⬜
+
