@@ -182,37 +182,6 @@ JPG:
 - **Farbtiefe**: 8 Bit pro Farbkanal (3 Kanäle: R, G, B)
 - **Kein Subsampling**: 4:4:4
 
-Formel:
-\[
-	ext{Datenrate} = 	ext{Horizontal Pixels} 	imes 	ext{Vertical Pixels} 	imes 	ext{Bit Depth} 	imes 	ext{Frame Rate} 	imes 	ext{Channels}
-\]
-
-\[
-	ext{Datenrate} = 1920 	imes 1080 	imes 8 	imes 50 	imes 3 	ext{ bits per second}
-\]
-
-\[
-	ext{Datenrate} = 1920 	imes 1080 	imes 8 	imes 50 	imes 3 / 1,000,000,000 	ext{ Gbps}
-\]
-
-\[
-	ext{Datenrate} = 1.9872 	ext{ Gbps}
-\]
-
 ## Aufgabe 14
-
-### DVD-5 Kapazität: 4.7 GB = 4.7 	imes 1024^3 Bytes
-
-\[
-	ext{Speicherzeit} = rac{	ext{DVD-5 Kapazität}}{	ext{Datenrate}}
-\]
-
-\[
-	ext{Speicherzeit} = rac{4.7 	imes 1024^3 	imes 8 	ext{ bits}}{1.9872 	imes 10^9 	ext{ bits per second}}
-\]
-
-\[
-	ext{Speicherzeit} pprox 2008 	ext{ seconds} pprox 33.46 	ext{ minutes}
-\]
-
+### DVD-5 Kapazität: 4.7 GB = 4.7 	
 Eine DVD-5 wäre nach etwa 33,46 Minuten unkomprimierten HD1080i50 Videos voll.
