@@ -134,3 +134,85 @@ JPG:
 2. Einfache Bearbeitung das heisst direkt verwendbar ohne Konvertierung.
 3. Kleinere Dateigrösse.
 4. Verwendung: Alltägliche Fotografie und schnelle Verteilung.
+
+## Aufgabe 10
+
+### Technische Vorgaben:
+
+- **Format**: MP4 ist das empfohlene Format.
+- **Videocodec**: H.264 ist der empfohlene Videocodec.
+- **Audiocodec**: AAC-LC mit einer Bitrate von 128 kbps oder höher ist empfohlen.
+- **Bildrate**: 24, 25, 30, 48, 50, 60 fps. Die Bildrate des Videos sollte die des Ausgangsmaterials beibehalten.
+- **Farbauflösung**: 4:2:0 ist der Standard für die meisten Youtube-Videos.
+- **Auflösung**: Videos können in verschiedenen Auflösungen hochgeladen werden, von 240p bis 2160p (4K).
+
+### Rechtliche Einschränkungen:
+- **Urheberrecht**: Stellen Sie sicher, dass Sie alle Rechte an den verwendeten Inhalten besitzen oder berechtigt sind, sie zu verwenden.
+- **Musik und Soundeffekte**: Vermeiden Sie die Verwendung von urheberrechtlich geschützter Musik oder Soundeffekten, es sei denn, Sie haben die Erlaubnis.
+- **Inhaltliche Richtlinien**: Videos müssen den Youtube-Community-Richtlinien entsprechen, einschließlich Beschränkungen bezüglich Hassrede, Gewalt, Nacktheit und anderen unangemessenen Inhalten.
+
+## Aufgabe 11
+
+- ### Interlaced Mode:
+  - Bilder werden in zwei Halbbildern (Fields) übertragen: das erste Halbbild enthält alle ungeraden Zeilen, das zweite alle geraden.
+  - Reduziert die benötigte Bandbreite.
+  - Kann zu Bildflimmern und -artefakten führen, insbesondere bei schnellen Bewegungen.
+
+- ### Progressive Mode:
+  - Bilder werden als vollständige Frames übertragen.
+  - Bessere Bildqualität, besonders bei schnellen Bewegungen.
+  - Erfordert mehr Bandbreite im Vergleich zu Interlaced.
+
+## Aufgabe 12
+
+### Artefakte sind unerwünschte Fehler in der Bild- oder Tonqualität, die durch verschiedene Faktoren verursacht werden können:
+
+- **Blockartefakte**: Quadratische Muster, die durch starke Kompression entstehen.
+- **Banding**: Sichtbare Streifen oder Stufen in Farbübergängen.
+- **Moskito-Rauschen**: Feine Details, die von sich bewegenden Rändern umgeben sind.
+- **Aliasing**: Treppeneffekte an schrägen oder gekrümmten Linien.
+- **Blurring**: Unschärfe, oft durch niedrige Bitrate oder schlechte Kompression.
+
+## Aufgabe 13
+
+### Berechnung:
+
+- **Auflösung**: 1920 x 1080
+- **Bildrate**: 50 Halbbilder pro Sekunde
+- **Farbtiefe**: 8 Bit pro Farbkanal (3 Kanäle: R, G, B)
+- **Kein Subsampling**: 4:4:4
+
+Formel:
+\[
+	ext{Datenrate} = 	ext{Horizontal Pixels} 	imes 	ext{Vertical Pixels} 	imes 	ext{Bit Depth} 	imes 	ext{Frame Rate} 	imes 	ext{Channels}
+\]
+
+\[
+	ext{Datenrate} = 1920 	imes 1080 	imes 8 	imes 50 	imes 3 	ext{ bits per second}
+\]
+
+\[
+	ext{Datenrate} = 1920 	imes 1080 	imes 8 	imes 50 	imes 3 / 1,000,000,000 	ext{ Gbps}
+\]
+
+\[
+	ext{Datenrate} = 1.9872 	ext{ Gbps}
+\]
+
+## Aufgabe 14
+
+### DVD-5 Kapazität: 4.7 GB = 4.7 	imes 1024^3 Bytes
+
+\[
+	ext{Speicherzeit} = rac{	ext{DVD-5 Kapazität}}{	ext{Datenrate}}
+\]
+
+\[
+	ext{Speicherzeit} = rac{4.7 	imes 1024^3 	imes 8 	ext{ bits}}{1.9872 	imes 10^9 	ext{ bits per second}}
+\]
+
+\[
+	ext{Speicherzeit} pprox 2008 	ext{ seconds} pprox 33.46 	ext{ minutes}
+\]
+
+Eine DVD-5 wäre nach etwa 33,46 Minuten unkomprimierten HD1080i50 Videos voll.
