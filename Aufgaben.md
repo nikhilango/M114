@@ -20,7 +20,7 @@
 - [Aufgabe 8](#aufgabe-8-1)
 - [Aufgabe 9](#aufgabe-9)
 
-## Tag 3: Restliche Aufgaben
+## Tag 3: Bilder Komprimieren
 - [Aufgabe 10](#aufgabe-10)
 - [Aufgabe 11](#aufgabe-11)
 - [Aufgabe 12](#aufgabe-12)
