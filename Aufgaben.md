@@ -168,7 +168,7 @@ JPG:
 
 ### Artefakte sind unerwünschte Fehler in der Bild- oder Tonqualität, die durch verschiedene Faktoren verursacht werden können:
 
-- **Blockartefakte**: Quadratische Muster, die durch starke Kompression entstehen.
+- **Blockartefakte**: Quadratische Muster.
 - **Banding**: Sichtbare Streifen oder Stufen in Farbübergängen.
 - **Moskito-Rauschen**: Feine Details, die von sich bewegenden Rändern umgeben sind.
 - **Aliasing**: Treppeneffekte an schrägen oder gekrümmten Linien.
@@ -182,7 +182,8 @@ JPG:
 - **Bildrate**: 50 Halbbilder pro Sekunde
 - **Farbtiefe**: 8 Bit pro Farbkanal (3 Kanäle: R, G, B)
 - **Kein Subsampling**: 4:4:4
-
+1.987 Gbps
+  
 ## Aufgabe 14
 ### DVD-5 Kapazität: 4.7 GB = 4.7 	
-Eine DVD-5 wäre nach etwa 33,46 Minuten unkomprimierten HD1080i50 Videos voll.
+Eine DVD-5 wäre nach etwa 33,46 Minuten voll.
