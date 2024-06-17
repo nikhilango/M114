@@ -60,6 +60,7 @@ Das Bild würde dann nur aus einer Farbe bestehen, der RLC-Code wird einfach die
 ⬛⬛⬛⬛⬜⬜⬛⬜
 ⬛⬛⬛⬛⬜⬜⬛⬜
 
+
 # Bilder komprimieren Aufgaben
 ## Aufgabe 1
 RGB(255, 255, 255): Weiss
