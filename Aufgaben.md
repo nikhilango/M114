@@ -1,3 +1,36 @@
+# Inhaltsverzeichnis
+
+## Tag 1: Daten Codieren
+- [Aufgabe 1](#aufgabe-1)
+- [Aufgabe 2](#aufgabe-2)
+- [Aufgabe 3](#aufgabe-3)
+- [Aufgabe 4](#aufgabe-4)
+- [Aufgabe 5](#aufgabe-5)
+- [Aufgabe 6](#aufgabe-6)
+- [Aufgabe 8](#aufgabe-8)
+
+## Tag 2: Bilder Komprimieren
+- [Aufgabe 1](#aufgabe-1-1)
+- [Aufgabe 2](#aufgabe-2-1)
+- [Aufgabe 3](#aufgabe-3-1)
+- [Aufgabe 4](#aufgabe-4-1)
+- [Aufgabe 5](#aufgabe-5-1)
+- [Aufgabe 6](#aufgabe-6-1)
+- [Aufgabe 7](#aufgabe-7)
+- [Aufgabe 8](#aufgabe-8-1)
+- [Aufgabe 9](#aufgabe-9)
+
+## Tag 3: Restliche Aufgaben
+- [Aufgabe 10](#aufgabe-10)
+- [Aufgabe 11](#aufgabe-11)
+- [Aufgabe 12](#aufgabe-12)
+- [Aufgabe 13](#aufgabe-13)
+- [Aufgabe 14](#aufgabe-14)
+- [Aufgabe 15](#aufgabe-15)
+- [Aufgabe 16](#aufgabe-16)
+
+# Daten Codieren Aufgaben
+
 ## Aufgabe 1
 | DEC | HEX | BIN 2^3 | BIN 2^2 | BIN 2^1 | BIN 2^0 |
 |-----|-----|---------|---------|---------|---------|
@@ -26,13 +59,14 @@ Binärzahl 1110001010100101 in Hexadezimal: E2A5
 Binärzahl 11011001 addiert mit Binärzahl 01110101: 0011010
 
 ## Aufgabe 6
-## A) Eine IP-Adresse
-## B) Eine MAC-Adresse
+### A) Eine IP-Adresse
+### B) Eine MAC-Adresse
 
 ## Aufgabe 8
 Die Codebreite des Binärcodes für die Kabinenzählung muss mindestens 7 Bits haben.
 
-# Daten komprimieren Augaben
+# Bilder Komprimieren Aufgaben
+
 ## Aufgabe 1
 1. Datenbanken
 2. Dateisysteme
@@ -40,9 +74,10 @@ Die Codebreite des Binärcodes für die Kabinenzählung muss mindestens 7 Bits h
 4. Netzwerkprotokolle
 5. Künstliche Intelligenz
 6. Webtechnologien
+
 Unterschied
 
-Ein binärer Baum ist eine spezielle Art von Baumstruktur, bei der jeder Knoten maximal zwei Childknoten hat. Ein nicht binärer Baum könte mehr oder weniger als zwei Knoten haben
+Ein binärer Baum ist eine spezielle Art von Baumstruktur, bei der jeder Knoten maximal zwei Childknoten hat. Ein nicht binärer Baum könnte mehr oder weniger als zwei Knoten haben.
 
 ## Aufgabe 2
 ![image](https://github.com/nikhilango/M114/assets/112620635/323fb666-1d3b-4bae-87f3-ed260d86ed9c)
@@ -60,50 +95,8 @@ Das Bild würde dann nur aus einer Farbe bestehen, der RLC-Code wird einfach die
 ⬛⬛⬛⬛⬜⬜⬛⬜
 ⬛⬛⬛⬛⬜⬜⬛⬜
 
-
-# Bilder komprimieren Aufgaben
-## Aufgabe 1
-RGB(255, 255, 255): Weiss
-RGB(0, 0, 0): Schwarz
-RGB(252, 178, 91): Orange
-#FF0000: Rot
-#00FF00: Grün
-#0000FF: Blau
-#FFFF00: Gelb
-#00FFFF: Cyan
-#FF00FF: Magenta
-#000000: Schwarz
-#FFFFFF: Weiss
-#00BC00: Grün
-
-## Aufgabe 2
-C:0%, M:100%, Y:100%, K:0%: Rot
-C:100%, M:0%, Y:100%, K:0%: Grün
-C:100%, M:100%, Y:0%, K:0%: Blau
-C:0%, M:0%, Y:100%, K:0%: Gelb
-C:100%, M:0%, Y:0%, K:0%: Cyan
-C:0%, M:100%, Y:0%, K:0%: Magenta
-C:100%, M:100%, Y:100%, K:0%: Schwarz
-C:0%, M:0%, Y:0%, K:100%: Schwarz
-C:0%, M:0%, Y:0%, K:0%: Weiss
-C:0%, M:46%, Y:38%, K:22%: Orange
-
-## Aufgabe 3
-7372800 bits
-921600 bytes
-
-## Aufgabe 4
-Eher ein JPG weil es ist ein schwarz weiss Bild ist also braucht es weniger Speicher und es hat auch keine Transparenz.
-
 ## Aufgabe 5
-Anhand dieser Formel: Breite^2 + Höhe^2 = Diagonale^2
-Seitenverhältnis = 16:100
-Diagonale 30 inch
-Breite = 15.89 inch
-  Horizontale Pixel 25.42 * 100ppi = 2542 pixel
-Höhe = 25.42 inch
-  Vertikale Pixel 15.89 * 100ppi = 1589 pixel
-Auflösung: 2542x1589
+Eher ein JPG weil es ist ein schwarz weiss Bild ist also braucht es weniger Speicher und es hat auch keine Transparenz.
 
 ## Aufgabe 6
 2000 pixel / 600 ppi = 3.33 inch = 8.46cm
@@ -111,17 +104,16 @@ Auflösung: 2542x1589
 ## Aufgabe 7
 Auflösung: 1920 x 1080 Pixel
 True-Color: 24 Bit pro Pixel also 8 Bit pro Farbkanal RGB
-Speicherbedarf: 1920 * 1080 * 24 = 49766400 Bit = 6 MB
+Speicherbedarf: 1920 * 1080 * 24 = 49766400 Bit = 6 MB
 
 ## Aufgabe 8
 Bildrate: 50 fps
 Dauer: 180 Sekunden
 Speicherbedarf pro Bild: 6 MB von vorher
 
-Speicherbedarf Video = 50 * 180 * 6 MB = 54000 MB = 54 GB
+Speicherbedarf Video = 50 * 180 * 6 MB = 54000 MB = 54 GB
 
 ## Aufgabe 9
-
 RAW:
 
 1. Unkomprimiert oder verlustfreie Kompression: Enthält alle erfassten Daten vom Sensor.
@@ -135,6 +127,8 @@ JPG:
 2. Einfache Bearbeitung das heisst direkt verwendbar ohne Konvertierung.
 3. Kleinere Dateigrösse.
 4. Verwendung: Alltägliche Fotografie und schnelle Verteilung.
+
+# Restliche Aufgaben
 
 ## Aufgabe 10
 
