@@ -186,4 +186,19 @@ JPG:
   
 ## Aufgabe 14
 ### DVD-5 Kapazität: 4.7 GB = 4.7 	
-Eine DVD-5 wäre nach etwa 33,46 Minuten voll.
+Eine DVD-5 wäre nach etwa 33,46 Sekunden voll.
+
+## Aufgabe 15
+### Unterschied zwischen Codec und Mediencontainer
+- Codec ist ein Mediacore also MP3.
+- Container ist halt eine Schachtel für Medien in einem bestimmten Codec sind.
+
+## Aufgabe 16
+### a. Warum benötigt man AD-Wandler?
+AD-Wandler sind notwendig, um analoge Signale in digitale Signale umzuwandeln, die von Computern verarbeitet und gespeichert werden können.
+
+### b. Warum geht eine A/D-Wandlung immer mit einem Datenverlust einher?
+Datenverlust tritt auf, weil kontinuierliche analoge Signale in diskrete digitale Werte umgewandelt werden, wobei feine Details verloren gehen.
+
+### c. Gibt eine höhere oder eine tiefere Samplingrate eine präzisere Abbildung des Originals? Begründen sie!
+Eine höhere Samplingrate gibt eine präzisere Abbildung des Originals, da mehr Datenpunkte erfasst werden, was zu einer genaueren Darstellung führt.
