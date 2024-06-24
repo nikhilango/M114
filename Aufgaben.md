@@ -128,8 +128,6 @@ JPG:
 3. Kleinere Dateigrösse.
 4. Verwendung: Alltägliche Fotografie und schnelle Verteilung.
 
-# Restliche Aufgaben
-
 ## Aufgabe 10
 
 ### Technische Vorgaben:
@@ -196,3 +194,32 @@ Datenverlust tritt auf, weil kontinuierliche analoge Signale in diskrete digital
 
 ### c. Gibt eine höhere oder eine tiefere Samplingrate eine präzisere Abbildung des Originals? Begründen sie!
 Eine höhere Samplingrate gibt eine präzisere Abbildung des Originals, da mehr Datenpunkte erfasst werden, was zu einer genaueren Darstellung führt.
+
+# Kryptografie Aufgaben
+## 1. Diffie-Hellman Schlüsseltausch
+Feststellung: Beide Parteien können erfolgreich einen gemeinsamen geheimen Schlüssel berechnen, ohne dass dieser Schlüssel über das unsichere Medium übertragen wird.
+
+## 2. RSA-Verschlüsselung
+Feststellung: Nur derjenige, der den passenden privaten Schlüssel besitzt (in diesem Fall "Muster Felix"), kann die Nachricht entschlüsseln. "Hasler Harry" kann die Nachricht nicht entschlüsseln.
+
+## 3. RSA-Demo zur Verschlüsselung eines kompletten Textes
+Feststellung: RSA kann komplette Texte verschlüsseln, jedoch ist es nicht effizient für große Datenmengen, daher wird es oft in hybriden Systemen verwendet.
+
+## 4. Hybride Verschlüsselung mit RSA-AES
+Feststellung: RSA wird zur sicheren Übertragung des symmetrischen AES-Schlüssels verwendet, während AES zur eigentlichen Datenverschlüsselung dient, was die Vorteile beider Verfahren kombiniert.
+
+## 5. Sicherheit von RSA-Schlüsseln prüfen
+### Mit kleinen Primzahlen:
+Feststellung: Die Faktorisierung des RSA-Moduls N gelingt schnell, was zeigt, dass kleine Primzahlen unsicher sind.
+
+### Mit großen Primzahlen:
+Feststellung: Die Faktorisierung des RSA-Moduls N ist erheblich schwieriger und zeitaufwendiger, was große Primzahlen für sichere RSA-Verschlüsselung unerlässlich macht.
+
+## 6. Hash-Demo
+Feststellung: Jede kleine Änderung in den Eingabedaten führt zu einem völlig anderen Hashwert, was die Sensibilität und Einzigartigkeit der Hashwerte zeigt.
+
+## 7. Dokument signieren und Überprüfung
+Feststellung: Nach einer kleinen Änderung am signierten Dokument ist die Signatur ungültig, was beweist, dass jede Änderung die Integrität bricht.
+
+## 8. Hashwert-Manipulation bei der digitalen Signatur
+Feststellung: Bei Verwendung des schwachen MD2-Algorithmus können zwei Dokumente gefunden werden, die denselben Hashwert haben, was zeigt, dass veraltete und unsichere Hashverfahren anfällig für Kollisionen sind.
